@@ -97,7 +97,7 @@ normal_end <- last_year + 1
 nyears = last_year - year0
 
 setwd(
-  "/Users/Denis/Downloads/forest_defoliation/canada_spruce_budworm/location1"
+  "/Users/Denis/Documents/Github/forest_defoliation"
 )
 mainDir = "./"
 
@@ -217,7 +217,7 @@ DEF_ALL_w_NAs <-
     rel_diff = double()
   )
 
-for (i in 2469:ncoordinates) {
+for (i in 1:ncoordinates) {
   #for every location...
   
   site_name <- as.character(coordinates[i, 1])
